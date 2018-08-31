@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package helloworld;
+
+option java_multiple_files = true;
+option java_package = "helloworld";
+option java_outer_classname = "HelloLevyProto";
+
+service HelloLevy {
+  rpc SayHello (HelloLevyRequest) returns (HelloLevyResponse) {}
+}
+
+message HelloLevyRequest {
+  string name = 1;
+}
+
+message HelloLevyResponse {
+  string message = 1;
+}
+
+
+
+message ComplexObject {
+   repeated string sons = 4; 
+   repeated Result result = 6; 
+}
+
+message Result {
+  string url = 1;
+  string title = 2;
+  repeated string snippets = 3;
+}
