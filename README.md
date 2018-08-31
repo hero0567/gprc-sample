@@ -1,17 +1,8 @@
-TODOs:
-- Add Go server/client
-- Add Python server/client
-- Handle default values of proto objects
-- Handle CI and run servers on cloud
-- Research about streaming data in grpc
-- Research about error handling of grpc service calls
-- Make nice readme
-- Add encryption for data transfer during service calls
-- Add `toJson()` method for debugging
-- Add gradle tasks and terminal commands build/run/clean servers and clients
-- https://github.com/ckaznocha/protoc-gen-lint
-- Write tests
-- https://github.com/troylelandshields/omgrpc
-- java server protobuf version dependency handling with exported variable from another file
-- Clean .gitignore
-- Add react-client: https://github.com/grpc/grpc-web
+Import into Idea
+1. go to server or client
+2. gradle idea
+3. import existed idea project
+
+How to run
+1. gradle build
+2. run
